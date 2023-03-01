@@ -1,0 +1,37 @@
+Algoritmo sin_titulo
+	Definir frase Como Cadena
+	Escribir "Ingrese una frase: "
+	Leer frase
+	transformacion(frase)
+	
+FinAlgoritmo
+
+
+
+
+SubProceso transformacion(frase)
+	Definir letra Como Caracter
+	Definir resultado Como Cadena
+	Definir i Como Entero
+	
+	Para i <- 0 Hasta Longitud(frase) Con Paso 1 Hacer
+		letra = SubCadena(frase, i, i)
+		Segun letra Hacer
+			'a' O 'A':
+				letra <- '@'
+			'e' O 'E':
+				letra <- '#'
+			'i' O 'I':
+				letra <- '$'
+			'o' O 'O':
+				letra <- '%'
+			'u' O 'U':
+				letra <- '*'
+		Fin Segun
+		Escribir letra "" Sin Saltar 
+	Fin Para
+	
+	Escribir ""
+	
+FinSubProceso
+

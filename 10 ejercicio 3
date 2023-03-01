@@ -1,0 +1,28 @@
+//Escribir una función recursiva que devuelva la suma de los primeros N enteros.
+Algoritmo sin_titulo
+	Definir platano Como Entero
+	Escribir "Ingrese un numero: "
+	Leer platano
+	
+	Escribir suma(platano)
+	
+	
+	
+FinAlgoritmo
+
+Funcion resultado <- suma(platano)
+	Definir resultado Como Entero
+	
+	si platano == 0 Entonces		
+		resultado <- 1
+	SiNo
+		
+		resultado = platano + suma(platano - 1)		
+		
+	FinSi
+	
+	
+	
+	
+FinSubProceso
+

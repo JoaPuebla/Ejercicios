@@ -1,0 +1,11 @@
+Entidades\Alquiler.class
+Servicios\BarcoService.class
+Entidades\Barco.class
+Servicios\YateService.class
+Servicios\AmotorService.class
+Entidades\Amotor.class
+Entidades\Yate.class
+com\mycompany\guia10ejercicio1extra\Guia10Ejercicio1Extra.class
+Entidades\Velero.class
+Servicios\AlquilerService.class
+Servicios\VeleroService.class
